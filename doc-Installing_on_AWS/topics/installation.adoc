@@ -11,7 +11,7 @@ After you have completed all the procedures in this guide, you will have a worki
 
 ifdef::miq[]
 [[obtaining-the-appliance]]
-=== Obtaining the appliance
+=== Obtaining the Appliance
 
 . In a browser, navigate to link:manageiq.org/download[].
 . Select *Amazon* from the *--Choose your platform--* list.
@@ -37,7 +37,7 @@ Uploading the {product-title} appliance file onto Amazon EC2 has the following r
 
 * 44 GB of space on the chosen datastore.
 * 12 GB RAM.
-* 4 VCPUs.
+* 4 vCPUs.
 * An Amazon S3 bucket to store disk images.
 * A VM import service role (IAM role) named `vmimport`. 
 * Depending on your infrastructure, allow time for the upload.
@@ -50,6 +50,13 @@ To upload the image:
 ====
 These are the prerequisites and procedural steps as of the time of writing. For more information on creating an Amazon S3 Bucket and VM Import Service Role, consult the Amazon EC2 documentation.
 ====
+
+[[Prerequisites-on-amazon-ec2]]
+=== Prerequisites Setup on Amazon EC2
+
+Complete the following steps on Amazon EC2
+
+
 [[importing-the-appliance-on-amazon-ec2]]
 === Importing the Appliance to Amazon Elastic Compute Cloud (Amazon EC2)
 To import the appliance:
